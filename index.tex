@@ -93,13 +93,13 @@ Como su nombre indica, el SQL nos permite realizar consultas a la base de datos.
 \end{itemize}
 
 %% SQL-92
-\subsection{\textbf{Nuevas Características de SQL-92}}
+\subsection{\textbf{Nuevas Características de SQL-92 \cite{Caselles2011} }}
 
 \subsubsection{\textbf{Definición de Esquemas}}
 
 La definición de un esquema es simple. Sólo se necesita identificar el comienzo de la definición con una instrucción CREATE SCHEMA y una cláusula adicional AUTHORIZATION y a continuación definir cada dominio, tabla, vista y demás en el esquema. 
 
-\subsubsection{\textbf{Tipos de datos y dominios}}	
+\subsubsection{\textbf{Tipos de datos y dominios \cite{Hernandez2008}}}	
 
 Un dominio es un conjunto del cual toma sus valores una columna de una relación. Según este concepto, los tipos de datos predefinidos son dominios. Adicionalmente SQL-92 permite la definición de dominios por parte de los usuarios.
 
@@ -384,7 +384,8 @@ Una vista es una porción restringida de la base de datos, y se obtiene de una t
 
 \section{Análisis}
 
-
+El SQL-92 también es conocida como SQL 2. El documento SQL-92 es considerablemente más grande que el de SQL-89, pero también tiene un alcance mucho más amplio. Por ejemplo, proporciona los medios para modificar la estructura de la base de datos después de haber sido definido, admite operaciones adicionales para manipular cadenas de caracteres, así como fechas y horas, y define características de seguridad adicionales. SQL-92 fue un gran paso adelante de cualquiera de sus predecesores.
+\\ Por ello, los comités de normas anticiparon esta situación hasta cierto punto. Para facilitar una conformidad suave y gradual con la nueva norma, ANSsI e ISO definieron SQL / 92 en tres niveles: SQL de Entrada, SQL Intermedio, SQL Completo. \cite{Viescas2018}
 
 %% ----------------------------------------------------------------------------------------------------------------------------------
 
@@ -411,11 +412,7 @@ Una vista es una porción restringida de la base de datos, y se obtiene de una t
 	
 	\bibliographystyle{apalike} 	%ESTILO
 	\bibliography{BIBLIOGRAFIA}	 
-
-%% https://www.iso.org/standard/63555.html
-%% https://books.google.com.pe/books?id=ILJJDwAAQBAJ&pg=PT123&dq=SQL:2016+is+the+ISO/IEC+9075:2016+standard+of+2016&hl=es&sa=X&ved=0ahUKEwjJlKLIlYbkAhVxoFkKHc6NADMQ6AEIJzAA#v=onepage&q=SQL%3A2016%20is%20the%20ISO%2FIEC%209075%3A2016%20standard%20of%202016&f=false
-%% http://www.coninteres.es/sql/material/Estandares_ANSI-SQL.pdf
-%% https://es.scribd.com/presentation/272788224/Evolucion-Ansi-SQL
+	
 
 	
 %ARCHIVO .bib
